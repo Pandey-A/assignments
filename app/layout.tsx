@@ -6,9 +6,8 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core"
 import { Notifications } from "@mantine/notifications"
 
 export const metadata = {
-  title: "Rebane's Discord Colored Text Generator",
-  description: "Create colored Discord messages using ANSI color codes",
-  generator: 'v0.dev'
+  title: "Discord Colored Text Generator",
+  description: "Create colored Discord messages using ANSI color codes"
 }
 
 export default function RootLayout({
