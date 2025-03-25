@@ -158,11 +158,11 @@ export default function Home() {
       autoClose: 2000,
     })
 
-    // Reset copy count after 2 seconds
+  
     setTimeout(() => setCopyCount(0), 2000)
   }
 
-  // Create color buttons
+
   const renderColorButtons = (colors: typeof fgColors, label: string) => (
     <Box>
       <Text fw={700} mb="xs">
@@ -188,7 +188,7 @@ export default function Home() {
     <Container py="xl" size="lg">
       <Stack gap="lg">
         <Title order={1} ta="center">
-          Rebane&apos;s Discord{" "}
+        Discord{" "}
           <Text span c="#5865F2" inherit>
             Colored
           </Text>{" "}
@@ -209,27 +209,7 @@ export default function Home() {
           </Text>
         </Box>
 
-        <Box>
-          <Title order={3} ta="center">
-            Source Code
-          </Title>
-          <Text ta="center" size="md" mt="xs">
-            This app runs entirely in your browser and the source code is freely available on{" "}
-            <Text component="a" href="https://github.com" c="#00AFF4" inherit>
-              GitHub
-            </Text>
-            . Shout out to kkrypt0nn for{" "}
-            <Text
-              component="a"
-              href="https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06"
-              c="#00AFF4"
-              inherit
-            >
-              this guide
-            </Text>
-            .
-          </Text>
-        </Box>
+        
 
         <Title order={2} ta="center">
           Create your text
@@ -282,9 +262,7 @@ export default function Home() {
           </Button>
         </Group>
 
-        <Text size="xs" c="dimmed" ta="center">
-          This is an unofficial tool, it is not made or endorsed by Discord.
-        </Text>
+       
       </Stack>
     </Container>
   )
